@@ -1,0 +1,48 @@
+footer p{
+    font-size: 9px;
+    margin-right: 25px;
+    display: inline;
+}
+
+body{
+    padding: 30px;
+    margin: 120px;
+    background-color: rgb(238,238,238, 0.8);
+}
+
+html {
+    background-image: url("slike/background.jpg")
+}
+
+/* O NAS - tabela */
+.tableONas {
+    width="471";
+    height="272";
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.tdLevo {
+    border-right: 1px solid rgb(102, 102, 102);
+    vertical-align: top;
+    text-align: right;
+    padding: 1px;
+    padding-right: 10px;
+}
+
+.tableONas td {
+    padding-left: 10px;
+}
+
+.googlemap {
+    overflow:hidden;
+    background:none!important;
+    position:relative;
+    height:100%;
+    text-align:center;
+    margin-top: 30px;
+}
+iframe {
+    border: 0;
+    height: 400px;
+}
