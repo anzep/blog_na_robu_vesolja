@@ -19,6 +19,15 @@ html {
   margin-top: 10px;
 }
 
+.socialIcon{ /*uporabljeno tudi za toTop pri novicah*/
+  float:right;
+  margin-left: 5px;
+}
+
+.card-img-bottom {
+  margin-bottom: 10px;
+}
+
 .povecanaSlika {
   width: 100%;
 }
@@ -49,7 +58,7 @@ html {
     position:relative;
     height:100%;
     text-align:center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 iframe {
     border: 0;
