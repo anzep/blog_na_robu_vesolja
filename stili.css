@@ -4,10 +4,8 @@ footer p{
     display: inline;
 }
 
-body{
-    padding: 30px;
-    margin: 120px;
-    background-color: rgb(238,238,238, 0.8);
+p {
+  text-align: justify;
 }
 
 html {
@@ -63,4 +61,56 @@ html {
 iframe {
     border: 0;
     height: 400px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+      padding: 5px;
+      margin: 5px;
+      background-color: rgb(238,238,238, 0.8);
+  }
+  .socialIcon{ /*uporabljeno tudi za toTop pri novicah*/
+    float:right;
+    margin-left: 5px;
+    width: 35px;
+    margin-top:25px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body{
+      padding: 8px;
+      margin: 8px;
+      background-color: rgb(238,238,238, 0.8);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+      padding: 15px;
+      margin: 20px;
+      background-color: rgb(238,238,238, 0.8);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+      padding: 25px;
+      margin: 40px;
+      background-color: rgb(238,238,238, 0.8);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{
+      padding: 30px;
+      margin: 70px;
+      background-color: rgb(238,238,238, 0.8);
+  }
 }
