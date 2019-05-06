@@ -1,28 +1,119 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="stili.css">
+
         <title>Galerija - Kometi</title>
     </head>
     <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">BNRV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Domov <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="o_nas.html">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Članki in novice</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="galerija.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Galerija
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="galerija-ozvezdja.html">Ozvezdja</a>
+                        <a class="dropdown-item" href="galerija-planeti.html">Planeti</a>
+                        <a class="dropdown-item" href="galerija-kometi.html">Kometi</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <p></p>
+                <!--GALERIJE-->
 
-        <h1>Galerija - Kometi</h1>
-        
-        <!-- SLIKA 1 -->
-        <p><a href="galerija-kometi-hale-bopp.html" title="Povečana slika Komet Hale-Bopp"><img src="slike/comet_hale_bopp_small.jpg" alt="Komet Hale-Bopp - mala slika"></a></p>
-        <p><a href="galerija-kometi-hale-bopp.html" title="Povečana slika Cassiopeia">Comet Hale-Bopp</a></p>    
-        
-        <!-- SLIKA 2 -->
-        <p><a href="galerija-kometi-halley.html" title="Povečana slika Komet Halley"><img src="slike/comet_halley_small.jpg" alt="Komet Halley - mala slika"></a></p>
-        <p><a href="galerija-kometi-halley.html" title="Povečana slika Komet Halley">Comet Halley</a></p>  
-    
-        <!-- SLIKA 3 -->
-        <p><a href="galerija-kometi-hyakutake.html" title="Povečana slika Komet Hyakutake"><img src="slike/Comet_hyakutake_small.jpg" alt="Andromeda - mala slika"></a></p>
-        <p><a href="galerija-kometi-hyakutake.html" title="Povečana slika Komet Hyakutake">Comet Hyakutake</a></p>
-        
-        <!-- SLIKA 4 -->
-        <p><a href="galerija-kometi-borrelly.html" title="Povečana slika Komet Borrelly"><img src="slike/comet_borrelly_small.jpg" alt="Pegasus - mala slika"></a></p>
-        <p><a href="galerija-kometi-borrelly.html" title="Povečana slika Komet Borrelly">Comet Borrelly</a></p>
+        <!--Slika 1-->
+        <div class="container">
+            <div class=row>
+                <div class=col>
+                    <h3>Hale-Bopp</h3>
+                    <div class="card">
+                        <img src="slike/comet_hale_bopp_small.jpg" class="card-img-top" alt="Komet Hale-Bopp - mala slika">
+                        <div class="card-body">
+                            <p class="card-text">Komet Hale-Bopp</p>
+                            <a href="galerija-kometi-hale-bopp.html" class="btn btn-primary">Večja resolucija</a>
+                        </div>
+                    </div>
+                </div>
 
-        <p><a href="galerija.html" title="To nas odpelje nazaj na galerijo">Nazaj</a></p>
-    </body>
+        <!--Slika 2-->
+
+                <div class=col>
+                    <h3>Halley</h3>
+                    <div class="card">
+                        <img src="slike/comet_halley_small.jpg" class="card-img-top" alt="Komet Halley - mala slika">
+                        <div class="card-body">
+                            <p class="card-text">Komet Halley</p>
+                            <a href="galerija-kometi-halley.html" class="btn btn-primary">Večja resolucija</a>
+                        </div>
+                    </div>
+                </div>
+
+        <!--Slika 3-->
+
+                <div class=col>
+                    <h3>Hyakutake</h3>
+                    <div class="card">
+                        <img src="slike/Comet_hyakutake_small.jpg" class="card-img-top" alt="Komet Hyakutake - mala slika">
+                        <div class="card-body">
+                            <p class="card-text">Komet Hyakutake</p>
+                            <a href="galerija-kometi-hyakutake.html" class="btn btn-primary">Večja resolucija</a>
+                        </div>
+                    </div>
+                </div>
+        <!--Slika 4-->
+
+                <div class=col>
+                    <h3>Borrelly</h3>
+                    <div class="card">
+                        <img src="slike/comet_borrelly_small.jpg" class="card-img-top" alt="Komet Borrelly - mala slika">
+                        <div class="card-body">
+                            <p class="card-text">Komet Borrelly</p>
+                            <a href="galerija-kometi-borrelly.html" class="btn btn-primary">Večja resolucija</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-dark buttonBack"><a href="galerija.html" title="To nas odpelje nazaj na galerijo">Nazaj na galerije</a></button>
+
+
+    <footer>
+        <hr>
+        <p>Copyright</p>
+        <p>15.3.2019</p>
+        <p>Anže Pureber</p>
+        <hr>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

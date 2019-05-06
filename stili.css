@@ -14,7 +14,16 @@ html {
     background-image: url("slike/background.jpg")
 }
 
-/* O NAS - tabela */
+.buttonBack {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.povecanaSlika {
+  width: 100%;
+}
+
+/* O NAS*/
 .tableONas {
     width="471";
     height="272";
